@@ -135,15 +135,6 @@ passenger_count = data.groupby('Accident_Id').size()
 st.write(f"Moyenne de passagers impliqués par accident : {passenger_count.mean()}")
 st.write('---')
 
-
-
-
-
-st.header('Répartition des accidents par gravité par usagers impliqués')
-grav_counts = data['grav'].value_counts().reset_index(name='count')
-fig = px.bar(grav_counts, x='index', y='count', labels={'index': 'Gravité', 'count': 'Nombre d\'accidents'})
-
-
 st.text("1 – Indemne ")
 st.text("2 – Tué ")
 st.text("3 – Blessé hospitalisé")
