@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import folium
-from folium.plugins import HeatMap
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
@@ -135,6 +133,13 @@ passenger_count = data.groupby('Accident_Id').size()
 st.write(f"Moyenne de passagers impliqués par accident : {passenger_count.mean()}")
 st.write('---')
 
+
+
+
+
+st.header('Répartition des accidents par gravité par usagers impliqués')
+fig = px.bar(data['grav'].value_counts().reset_index(), x='index', y='grav', labels={'index': 'Gravité', 'grav': 'Nombre d\'accidents'})
+st.plotly_chart(fig)
 st.text("1 – Indemne ")
 st.text("2 – Tué ")
 st.text("3 – Blessé hospitalisé")
