@@ -140,8 +140,11 @@ st.write('---')
 
 
 st.header('Répartition des accidents par gravité par usagers impliqués')
-fig = px.bar(data['grav'].value_counts().reset_index(), x='index', y='grav', labels={'index': 'Gravité', 'grav': 'Nombre d\'accidents'})
+grav_counts = data['grav'].value_counts().reset_index()
+grav_counts.columns = ['Gravité', 'Nombre d\'accidents']
+fig = px.bar(grav_counts, x='Gravité', y='Nombre d\'accidents')
 st.plotly_chart(fig)
+
 st.text("1 – Indemne ")
 st.text("2 – Tué ")
 st.text("3 – Blessé hospitalisé")
