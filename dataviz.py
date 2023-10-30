@@ -24,7 +24,7 @@ __status__='Final Code'
 
 
 
-st.title('Études accidents de la route :car:')
+st.title('Études des accidents routiers en France et départements d'Outre-mer :car:')
 st.write('---')
 st.write("Dans le cadre du module data vizualisation de l'EFREI PARIS, j'ai l'occasion d'effectuer une étude sur les accident routiers en France et départements d'outre-mer. Dans le cadre de ce projet, une analyse et une représentation visuelle des données est nécessaire, afin de mettre en valeur les informations qui se révèleraient intéressantes pour répondre à la question suivante :")
 st.write(' Comment les différents facteurs contribuent-ils aux accidents de la route ?')
