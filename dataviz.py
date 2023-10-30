@@ -27,7 +27,7 @@ __status__='Final Code'
 st.title('Études accidents de la route')
 st.subheader('SAVORY Edwin')
 st.write('---')
-st.write("Dans le cadre du module data vizualisation de l'EFREI PARIS, j'ai l'occasion d'effectuer une étude sur les accident routiers en France et départements d'outre-mer. Dans le cadre de ce projet, une analyse et une représentation intéréssantes et visuelle des données est necessaire, afin de mettre en valeur les informations qui se révèleraient intéressantes pour répondre à la question suivante :")
+st.write("Dans le cadre du module data vizualisation de l'EFREI PARIS, j'ai l'occasion d'effectuer une étude sur les accident routiers en France et départements d'outre-mer. Dans le cadre de ce projet, une analyse et une représentation visuelle des données est nécessaire, afin de mettre en valeur les informations qui se révèleraient intéressantes pour répondre à la question suivante :")
 st.write(' Comment les différents facteurs contribuent-ils aux accidents de la route ?')
 st.write('---')
 @st.cache_resource
