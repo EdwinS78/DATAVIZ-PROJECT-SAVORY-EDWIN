@@ -200,7 +200,7 @@ st.text("17 – Buse – tête d’aqueduc")
 
 # Histogramme des accidents
 st.header('Histogramme des accidents')
-granularity = st.selectbox('Choisissez la granularité:', ('Par mois', 'Par jour du mois', 'Par heure'))
+granularity = st.selectbox('Choisissez la temporalité:', ('Par mois', 'Par jour du mois', 'Par heure'))
 
 
 if granularity == 'Par mois':
