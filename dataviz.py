@@ -24,18 +24,17 @@ __status__='Final Code'
 
 
 
-st.title('Études accidents de la route')
-st.subheader('SAVORY Edwin')
+st.title('Études accidents de la route :car:')
 st.write('---')
 st.write("Dans le cadre du module data vizualisation de l'EFREI PARIS, j'ai l'occasion d'effectuer une étude sur les accident routiers en France et départements d'outre-mer. Dans le cadre de ce projet, une analyse et une représentation visuelle des données est nécessaire, afin de mettre en valeur les informations qui se révèleraient intéressantes pour répondre à la question suivante :")
 st.write(' Comment les différents facteurs contribuent-ils aux accidents de la route ?')
 st.write('---')
 @st.cache_resource
 def load_info():
-    st.sidebar.text("Nom : SAVORY")
-    st.sidebar.text("Prénom : Edwin")
+    st.sidebar.text("SAVORY")
+    st.sidebar.text("Edwin")
     st.sidebar.text("École : EFREI PARIS")
-    st.sidebar.text("Promo : 2025")
+    st.sidebar.text("Promo 2025")
     st.sidebar.text("Classe : BIA2")
 
 
