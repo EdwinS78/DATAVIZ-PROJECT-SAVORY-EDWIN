@@ -12,6 +12,8 @@ import altair as alt
 from bokeh.plotting import figure, show, output_notebook
 from bokeh.io import push_notebook
 from bokeh.models import ColumnDataSource
+from streamlit_echarts import st_echarts
+
 
 
 
